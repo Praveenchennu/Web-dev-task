@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Company Page</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    border: 2px solid black;
+    padding: 10px; /* Reduced padding */
+    width: 50%; /* Set width to half of the viewport */
+    margin: 0 auto; /* Center the container */
+    position: relative; /* Add position relative */
+  }
+  .company-name {
+    background-color: rgb(128, 0, 109);
+    text-align: center;
+    width: 50%; /* Set width to half of the container */
+    margin: 0 auto; /* Center the element */
+    color: white; /* Set text color to white */
+  }
+  .green-heading {
+    background-color: rgb(178, 30, 126);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%; /* Set width to half of the container */
+    margin: 0 auto; /* Center the element */
+    color: white; /* Set text color to white */
+  }
+  .center {
+    text-align: center;
+  }
+  .inline-images {
+    display: inline-block;
+    margin: 10px;
+  }
+  .vcenter {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 10px;
+  }
+  .red-dotted-line {
+    border-top: 2px dotted red;
+    width: 75%;
+    margin: 0 auto;
+  }
+  /* Right side corner ribbon stock */
+  .ribbon-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 1cm solid transparent;
+    border-bottom: 1cm solid rgb(146, 37, 146); /* Pink color */
+    border-top: 1cm solid rgb(146, 48, 128); /* Pink color */
+    border-right: 1cm solid rgb(135, 38, 112); /* Pink color */
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%); /* Clip the ribbon */
+  }
+  /* Left side bottom corner ribbon stock */
+  .ribbon-left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 1cm solid rgb(173, 38, 132); /* Pink color */
+    border-bottom: 1cm solid rgb(130, 34, 122); /* Pink color */
+    border-top: 1cm solid transparent;
+    border-right: 1cm solid transparent;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%); /* Clip the ribbon */
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="ribbon-right"></div> <!-- Ribbon stock at right side corner -->
+  <div class="ribbon-left-bottom"></div> <!-- Ribbon stock at left bottom corner -->
+  <div class="company-name"><center>COMPANY NAME</center></div>
+  <br>
+  <div>Welcome to our VeriTech, where a dedicated team of professionals works together to bring innovation, creativity, and expertise to the software industry. Get to know the individuals who make our company thrive</div><br>
+  <div class="red-dotted-line"></div> <!-- Red dotted line -->
+  <div><center><h2>Meet our Team</h2></center></div>
+  <div class="green-heading">Management Team</div>
+  <div class="center">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+  </div>
+  <div class="center">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+  </div>
+  <div class="green-heading">Development Team</div>
+  <div class="center">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+  </div>
+  <div class="center">
+    <div class="vcenter">
+      <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    </div>
+    <div class="vcenter">
+      <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    </div>
+    <div class="vcenter">
+      <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    </div>
+  </div>
+  <div class="green-heading">Sales Team</div>
+  <div class="center">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+  </div>
+  <div class="center">
+    <div class="vcenter">
+      <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    </div>
+    <div class="vcenter">
+      <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    </div>
+    <div class="vcenter">
+      <img src="https://www.kindpng.com/picc/m/76-768103_customer-feedback-and-reviews-observablehq-logo-hd-png.png" alt="Image 13" width="60" height="40" class="inline-images">
+    </div>
+  </div>
+</div>
+</body>
+</html>
